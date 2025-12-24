@@ -1,4 +1,4 @@
-# 04-UAV-Swarm
+# 04-UAV-Swarm（第一版）
 本项目为无人机集群协同巡检系统，基于多智能体强化学习（MADDPG）完成路径规划、避障、任务分配等核心功能，适配 AirSim 仿真环境，支持视频录制与指标评估。
 一、环境配置
 1. 依赖安装
@@ -40,4 +40,5 @@ plaintext
 ├── uav_communication_sim.py   # 通信模拟
 ├── uav_swarm_patrol_demo.py   # 核心巡检Demo
 ├── uav_video_recorder.py      # 视频录制/GIF转换
+
 └── README.md                  # 项目说明
